@@ -17,7 +17,7 @@ void print_number(int n)
                 _putchar('-');                                                                                                                       
         }                                                                                                                                            
                                                                                                                                                      
-/**/                                                                                                                                                 
+/*Check decimal*/                                                                                                                                                 
         temp = res;                                                                                                                                  
         while (temp >= 10)                                                                                                                           
         {                                                                                                                                            
