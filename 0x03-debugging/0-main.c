@@ -9,14 +9,14 @@ void positive_or_negative(int i)
 {
 	if( i > 0)
 	{
-		printf("is positive");
+		printf("is positive\n");
 	}
 	else if( i == 0)
 	{
-		printf("is zero");
+		printf("is zero\n");
 	}
 	else
 	{
-		printf("is negative");
+		printf("is negative\n");
 	}
 }
