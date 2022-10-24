@@ -1,8 +1,6 @@
-#include <stdio>
-
 /**
  * reset - updates value
- * Return: Always 0
+ * @n: input to update
  */
 
 void reset_to_98(int ptr)
