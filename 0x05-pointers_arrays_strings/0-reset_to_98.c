@@ -1,5 +1,5 @@
 /**
- * reset - updates value
+ * reset_to_98 - updates value
  * @n: input to update
  */
 
