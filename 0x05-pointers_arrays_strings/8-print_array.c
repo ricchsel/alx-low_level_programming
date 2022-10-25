@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include "holberton.h"
 /**
  * print_array - Print an array up to n.
  * @a: the array of elements
@@ -12,11 +13,10 @@ void print_array(int *a, int n)
 	while (i < n)
 	{
 		if (i != n - 1)
-			_putchar(a[i]);
+			printf("%d, ", a[i]);
 		else
-			_putchar(a[i]);
+			printf("%d", a[i]);
 		i++;
 	}
-	
 	putchar('\n');
 }
